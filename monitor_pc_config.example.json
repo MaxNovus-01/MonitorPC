@@ -1,0 +1,39 @@
+{
+  "refresh_seconds": 5,
+  "heavy_check_seconds": 60,
+  "temp_alert": 75,
+  "memory_alert": 85,
+  "disk_alert": 90,
+  "linux_services": [
+    "ssh",
+    "docker",
+    "cron",
+    "nginx",
+    "apache2"
+  ],
+  "windows_services": [
+    "sshd",
+    "WinRM",
+    "LanmanServer",
+    "W32Time",
+    "W3SVC",
+    "MSSQLSERVER",
+    "docker"
+  ],
+  "devices": [
+    {
+      "name": "Linux server",
+      "host": "linux-hostname-or-ip",
+      "user": "your-linux-user",
+      "port": 22,
+      "platform": "linux"
+    },
+    {
+      "name": "Windows server",
+      "host": "windows-hostname-or-ip",
+      "user": "your-windows-user",
+      "port": 22,
+      "platform": "windows"
+    }
+  ]
+}
