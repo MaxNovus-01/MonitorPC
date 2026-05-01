@@ -27,7 +27,7 @@ No external Python package is required to run the app. PyInstaller is only neede
 Open:
 
 ```bat
-Avvia Monitor PC Python.cmd
+Start Monitor PC Python.cmd
 ```
 
 Or run manually:
@@ -94,5 +94,5 @@ dist\MonitorPC.exe
 
 - Linux/Raspberry monitoring uses standard shell commands such as `free`, `df`, `ps`, and `systemctl`.
 - Windows monitoring uses PowerShell over SSH.
-- If a Windows check fails, the app may write `ultimo_controllo_debug.txt` next to the app.
+- If a Windows check fails, the app may write `last_control_debug.txt` next to the app.
 - Local files such as `monitor_pc_config.json`, history CSV, debug logs, and build output are ignored by Git.
