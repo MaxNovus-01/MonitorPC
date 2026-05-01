@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Local runtime data
+monitor_pc_config.json
+monitor_pc_history.csv
+ultimo_controllo_debug.txt
+_tmp/
+
+# Windows
+Thumbs.db
+Desktop.ini
